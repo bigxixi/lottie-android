@@ -1,4 +1,4 @@
-# Lottie 安卓版, [iOS版](https://github.com/airbnb/lottie-ios), and [React Native版](https://github.com/airbnb/lottie-react-native)  
+# Lottie 安卓版, [iOS版](https://github.com/CRAnimation/lottie-ios), and [React Native版](https://github.com/airbnb/lottie-react-native)  
 <br>
 <a href='https://play.google.com/store/apps/details?id=com.airbnb.lottie'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height="80px"/></a> 
 
