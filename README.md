@@ -48,9 +48,16 @@ Lottie 是一个用于 Android 和 iOS 的代码库，可以解析用 [Adobe Aft
 
 Lottie 仅支持用 Gradle 构建配置, 请将依赖项添加到项目 `build.gradle` 文件中：
 
+### 发行版
 ```groovy
 dependencies {  
   compile 'com.airbnb.android:lottie:1.5.3'
+}
+```
+### Beta版
+```groovy
+dependencies {  
+  compile 'com.airbnb.android:lottie:2.0.0-beta1'
 }
 ```
 
@@ -228,6 +235,8 @@ animationView.setImageAssetDelegate(new ImageAssetDelegate() {
 * 形状组变换（锚点、位置、缩放……）[Group Transforms (Anchor point, position, scale etc)]
 
 * 一个形状组可包含多个形状 [Multiple paths in one group]
+
+* 合并路径（默认是关闭的，必须用enableMergePathsForKitKatAndAbove方法专门开启）[Merge paths (off by default and must be explicitly enabled with enableMergePathsForKitKatAndAbove)]
 
 #### 形状图层描边 [Stroke (shape layer)]
 
