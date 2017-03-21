@@ -2,7 +2,8 @@
 <br>
 <a href='https://play.google.com/store/apps/details?id=com.airbnb.lottie'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height="80px"/></a> 
 
- ***这是Lottie项目说明的中文版，由[BigXiXi](https://github.com/bigxixi)翻译, 原文地址：https://github.com/airbnb/lottie-android/<br>
+ ***这是Lottie-Android项目说明的中文版，由[BigXiXi](https://github.com/bigxixi)翻译, 原文地址：https://github.com/airbnb/lottie-android/<br>
+ 注意！项目中除了readme保持更新，其他文件最新版请[移步原版](https://github.com/airbnb/lottie-android/)获取。<br>
 Lottie-iOS版的翻译[点这里](https://github.com/CRAnimation/lottie-ios)，由[CRAnimation团队](https://github.com/CRAnimation)提供。<br>
 文中After Effects术语参考自官方中文版AE。***   
 
@@ -57,7 +58,7 @@ dependencies {
 ### Beta版
 ```groovy
 dependencies {  
-  compile 'com.airbnb.android:lottie:2.0.0-beta1'
+  compile 'com.airbnb.android:lottie:2.0.0-beta2'
 }
 ```
 
