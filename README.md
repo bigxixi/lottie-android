@@ -86,6 +86,7 @@ Lottie 支持ICS (API 14) 及以上版本。
 LottieAnimationView animationView = (LottieAnimationView) findViewById(R.id.animation_view);
 animationView.setAnimation("hello-world.json");
 animationView.loop(true);
+animationView.playAnimation();
 ```
 这个方法可以在后台异步加载动画文件，并在加载完成后开始渲染动画。 
 
